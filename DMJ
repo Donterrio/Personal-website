@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donterrio Jenkins - Real Estate Enthusiast & Recruiter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Verde&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Donterrio Jenkins</h1>
+        <h2>Real Estate Enthusiast & Professional Recruiter</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#real-estate">Real Estate Links</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <img src="profile.jpg" alt="Donterrio Jenkins">
+        <p>Welcome to my personal webpage. I am passionate about real estate and have a strong background in recruiting. Explore my site to learn more about me and my interests.</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Donterrio Jenkins. I am a professional recruiter with a deep interest in real estate. Throughout my career, I have helped numerous individuals find their dream jobs and guided them through the complexities of the hiring process. I am also an avid real estate enthusiast, always on the lookout for the latest market trends and opportunities.</p>
+    </section>
+    
+    <section id="real-estate">
+        <h2>Real Estate Links</h2>
+        <ul>
+            <li><a href="https://www.zillow.com" target="_blank">Zillow</a></li>
+            <li><a href="https://www.realtor.com" target="_blank">Realtor.com</a></li>
+            <li><a href="https://www.trulia.com" target="_blank">Trulia</a></li>
+        </ul>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Coming soon! Stay tuned for my blog posts where I will share insights and tips on real estate and recruiting.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p>Email: donterrio.jenkins@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Donterrio Jenkins</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/donterriojenkins" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.twitter.com/donterriojenkins" target="_blank">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
+body {
+    font-family: 'Verde', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #ffd700;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#home img {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #000;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #000;
+    color: #ffd700;
+    cursor: pointer;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #ffd700;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #ffd700;
+    text-decoration: none;
+}
